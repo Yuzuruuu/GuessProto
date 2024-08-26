@@ -4,7 +4,6 @@ Guess_Word =[
 ]
 randomNum = random.randint(0,len(Guess_Word)-1)
 chosen_word = Guess_Word[randomNum]
-
 ##Game Init State
 Displayed_Text = ["-","-","-","-","-"]
 Life_Remain = 5
